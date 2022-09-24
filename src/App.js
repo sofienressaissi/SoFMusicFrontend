@@ -5,7 +5,6 @@ import './App.css';
 
 const LPView = lazy(() => import("./pages/landingPage"));
 const NotFoundView = lazy(() => import("./pages/notFound"));
-const maitenance = lazy(() => import("./pages/maintenance"));
 
 function App() {
   const { containerProps, indicatorEl } = useLoading({
