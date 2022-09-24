@@ -205,7 +205,7 @@ export default function LandingPage() {
                 <button type="button" data-toggle="collapse" className="btnBurger"
                 data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <Menu customBurgerIcon={ <img src="assets/images/burgerMenuSoF.png" /> }>
-                    <a href="/" style={{fontFamily: 'Mistral', fontSize: '70px', color: 'white', textDecoration: 'none'}}>SoF</a><br/><br/>
+                    <a href="/" style={{fontFamily: 'mistral', fontSize: '70px', color: 'white', textDecoration: 'none'}}>SoF</a><br/><br/>
                     <Link to="home" activeClass="active" spy={true} smooth={true} style={{color: 'white', fontWeight: 'bold'}}>
                         <FaHome/> HOME
                     </Link><br/><br/>
@@ -241,7 +241,7 @@ export default function LandingPage() {
                     </span>
                     </Menu>
                 </button>
-                <a className="navbar-brand" href="/" style={{fontFamily: 'Mistral', fontSize: '75px'}}>SoF</a>
+                <a className="navbar-brand" href="/" style={{fontFamily: 'mistral', fontSize: '75px'}}>SoF</a>
             </div>
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul className="nav navbar-nav navbar-right">

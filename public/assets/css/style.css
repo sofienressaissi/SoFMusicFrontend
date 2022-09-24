@@ -3219,7 +3219,8 @@ textarea.form-single {
   .media-title {
     font-size: 34px !important;
     color: #9E002B;
-    border-bottom: 6px solid #bababb; 
+    border-bottom: 6px solid #bababb;
+    bottom: -6px;
   }
   .media-title span::after {
     border-bottom: 6px solid #fff;
